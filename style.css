@@ -1,0 +1,35 @@
+.navbar {
+  background: #437C90;
+}
+.navbar .navbar-brand {
+  font-weight: bold;
+  color: #255957;
+}
+
+h1 {
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.well {
+  margin-bottom: 50px;
+}
+.well h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+@media (max-width: 767px) {
+  #navbar-collapse-1 {
+    background-color: #f8f8f8;
+    font-weight: bold;
+    text-align: center;
+    padding: 0;
+  }
+  .nav.navbar-nav {
+    margin: 0;
+  }
+  .nav > li {
+    border-bottom: 1px solid #A98743;
+  }
+}
